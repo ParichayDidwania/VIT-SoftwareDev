@@ -301,7 +301,6 @@ while(characterselectionCompleted_2==0):
 
 if(characterselectionCompleted_1==1 and characterselectionCompleted_2==1):
     while(alive[0]!=0 or alive[1]!=0):
-        print(alive)
         if(turn==0):
             print("Player 1 Move : ")
             x = input()
