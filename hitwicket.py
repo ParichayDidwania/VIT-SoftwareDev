@@ -78,9 +78,9 @@ H3=['FL','FR','BL','BR','RF','RB','LF','LB']
 turn=0
 board=[]
 n=5
-for i in range(5):
+for i in range(n):
     m=[]
-    for j in range(5):
+    for j in range(n):
         m.append(0)
     board.append(m)
 
