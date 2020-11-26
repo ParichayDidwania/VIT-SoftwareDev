@@ -213,8 +213,6 @@ def checkMove(x,y,name):
             board[newcord_x][newcord_y] = searchStr
             return True,"Moved"
     else:
-        print(result)
-        print("***********")
         midx = (i+newcord_x)//2
         midy = (j+newcord_y)//2
         if(result[0]==-1 or result[1]==-1):
